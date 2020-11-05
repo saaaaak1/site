@@ -1,0 +1,203 @@
+body{
+  font-family: "ヒラギノ明朝 ProN W3";
+  background-image: url(image/rekkasui_img_01.png);
+  background-size: contain;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  
+}
+
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+#mainNav{
+  font-size:14px;
+  background-color: #fff;
+  color:black;
+  width:100%;
+  height: 88px;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 1000;
+  opacity: 0.7;
+}
+
+.navbar-nav li {
+  color:black;
+  font-family: "ヒラギノ明朝 ProN W3";
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  overflow: hidden;
+  position: relative;
+} 
+
+#navbar-header li  a {
+  font-size: 14px;
+  display: block;
+  color: black;
+  transition: .3s linear;
+  border-bottom: 2px solid transparent;
+} 
+
+#navbar-header li  a:hover {
+  border-width: 2px;
+  border-color:black ;
+  color :black;
+}
+
+/* カルーセル */
+
+
+
+.carousel-item img {
+  width: auto;
+  height:auto ;
+  object-fit: none;
+  padding-top:50px;
+  padding-bottom:-20px;
+  
+}
+
+/* こだわり */
+
+
+#quality{
+  background-image: url(image/rekkasui_img_01.png);
+  background-size:contain;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+
+#quality h2{
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:30px;
+
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding:10 40px;
+  
+}
+
+.rounded-circle{
+  margin-bottom:35px;
+}
+.col-lg-4 h3 {
+  font-size:25px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.col-lg-4  p {
+  font-size:13px;
+  word-break: break-all;
+  padding:0 40px;
+}
+
+.row .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+ .effect-fade {
+  opacity : 0;
+  transform : translate(0, 45px);
+  transition : all 1000ms;
+}
+  
+ .effect-fade.effect-scroll {
+  opacity : 1;
+  transform : translate(0, 0);
+  }
+
+.subtitle {
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#imo p{
+  text-align:center;
+  font-size:25px;
+  
+}
+.card h5{
+  text-align:center;
+}
+#imokouzi p{
+  text-align:center;
+  font-size:25px;
+  margin-top:10px;
+}
+
+#kennrei p{
+  text-align:center;
+  font-size:25px;
+  margin-top:10px;
+}
+
+#osusume{
+  position:relative;
+  width:100%;
+  height:100%;
+  /* flex-wrap: wrap; */
+  display: flex;
+}
+#osusume iframe{
+  position:absolute;
+  /* flex-direction: row; */
+margin-bottom:50%;
+padding-bottom:50px;
+}
+
+footer{
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-bottom:30px;
+}
+/* .after-clear{
+  text-align: center;
+}
+.after-clear ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.after-clear ul li  img{
+  text-align: center;
+  margin:0 20%;
+} */
+
+#footer-menu{
+  list-style: none;
+}
+#footer-logo-company-box{
+  margin-bottom:10px;
+}
